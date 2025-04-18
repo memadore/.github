@@ -1,0 +1,9 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "branchPrefix": "github-renovate/",
+    "dependencyDashboardTitle": "Renovate Dashboard",
+    "gitAuthor": "Marc-Etienne Madore <17458989+memadore@users.noreply.github.com>",
+    "platform": "github",
+    "prHourlyLimit": 20,
+    "repositories": []
+}
