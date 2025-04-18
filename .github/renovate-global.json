@@ -4,6 +4,7 @@
     "dependencyDashboardTitle": "Renovate Dashboard",
     "gitAuthor": "Marc-Etienne Madore <17458989+memadore@users.noreply.github.com>",
     "platform": "github",
-    "prHourlyLimit": 20,
-    "repositories": []
+    "autodiscover": true,
+    "autodiscoverFilter": ["memadore/*"],
+    "prHourlyLimit": 5
 }
