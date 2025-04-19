@@ -1,14 +1,22 @@
 {
-    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    "description": "Renovate default preset for all repos",
-    "extends": [
-      "config:best-practices"
-    ],
-    "packageRules": [
-      {
-        "description": "Auto-merge non-major updates",
-        "matchUpdateTypes": ["minor", "patch", "digest", "lockFileMaintenance"],
-        "automerge": true
-      }
-    ]
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Renovate default preset for all repos",
+  "extends": [
+    "config:best-practices"
+  ],
+  "packageRules": [
+    {
+      "automerge": true,
+      "description": "Auto-merge non-major updates",
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "digest",
+        "lockFileMaintenance"
+      ]
+    }
+  ],
+  "pre-commit": {
+    "enabled": true
   }
+}

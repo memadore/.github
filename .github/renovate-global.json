@@ -1,10 +1,12 @@
 {
-    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    "branchPrefix": "github-renovate/",
-    "dependencyDashboardTitle": "Renovate Dashboard",
-    "gitAuthor": "Marc-Etienne Madore <17458989+memadore@users.noreply.github.com>",
-    "platform": "github",
-    "autodiscover": true,
-    "autodiscoverFilter": ["memadore/*"],
-    "prHourlyLimit": 5
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "autodiscover": true,
+  "autodiscoverFilter": [
+    "memadore/*"
+  ],
+  "branchPrefix": "github-renovate/",
+  "dependencyDashboardTitle": "Renovate Dashboard",
+  "gitAuthor": "Marc-Etienne Madore <17458989+memadore@users.noreply.github.com>",
+  "platform": "github",
+  "prHourlyLimit": 5
 }
