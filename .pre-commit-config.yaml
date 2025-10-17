@@ -16,7 +16,7 @@ repos:
         args:
           - --autofix
   - repo: https://github.com/google/yamlfmt
-    rev: v0.17.2
+    rev: v0.19.0
     hooks:
       - id: yamlfmt
         args: [-conf, .yamlfmt]
