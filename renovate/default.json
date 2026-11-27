@@ -4,6 +4,12 @@
   "extends": [
     "config:best-practices"
   ],
+  "ignorePresets": [
+    "security:minimumReleaseAgeNpm"
+  ],
+  "internalChecksFilter": "strict",
+  "minimumReleaseAge": "7 days",
+  "minimumReleaseAgeBehaviour": "timestamp-required",
   "packageRules": [
     {
       "automerge": true,

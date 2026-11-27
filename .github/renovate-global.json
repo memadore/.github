@@ -1,9 +1,5 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "allowedCommands": [
-    "pre-commit run || pre-commit run",
-    "pre-commit run --all-files || pre-commit run --all-files"
-  ],
   "autodiscover": true,
   "autodiscoverFilter": [
     "memadore/*"
